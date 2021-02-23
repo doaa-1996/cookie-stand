@@ -1,0 +1,26 @@
+body a{
+    font-style: oblique;
+    font-size: 80px;
+    color:coral;
+
+}
+
+body img{
+    width:300px;
+
+}
+
+
+body div{
+    background-color: coral;
+    width:100%;
+    font-style: oblique;
+    font-size:20px ;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+
+  
