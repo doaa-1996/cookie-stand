@@ -1,0 +1,48 @@
+body h1{
+    font-style: oblique;
+    font-size:100px ;
+    color: chocolate;
+}
+
+body img{
+width: 700px;
+
+}
+
+body h2{
+    font-size: 70px;
+    font-style: oblique;
+    color: black;
+
+}
+body a{
+    font-style: oblique;
+    font-size: 75px;
+    color: black ;
+}
+
+body ul li {
+    font-style: oblique;
+    font-size:50px ;
+    color: chocolate;
+
+}
+
+body p{
+    font-style: oblique;
+    font-size: 50px;
+    color:black;
+}
+
+
+#album img{
+    width: 200px;
+
+}
+
+#album{
+    text-align: center; 
+    border: 30px solid chocolate;
+    background-color:chocolate;
+    display: block;
+}
