@@ -1,0 +1,93 @@
+body a{
+    font-style: oblique;
+    font-size: 80px;
+    color:coral;
+
+}
+
+body img{
+    width:300px;
+}
+
+
+body div{
+    background-color: coral;
+    width:93%;
+    font-style: oblique;
+    font-size:20px ;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding:2px ;
+  }
+
+
+  
+input[type=text] {
+   padding:10px;
+   border:2px 000000;
+   border-radius:10px;
+
+  }
+  
+
+
+ input[id="minNumberOfCustomers"] {
+    padding:10px;
+    border:2px 000000;
+    border-radius:10px;
+
+      }
+  
+
+    input[id="maxNumberOfCustomers"] {
+        padding:10px;
+        border:2px 000000;
+        border-radius:10px;
+
+      }
+
+
+
+    input[id="avgNumberOfCookiesPerCustomer"] {
+        padding:10px;
+        border:2px 000000;
+        border-radius:10px;
+      }
+
+
+  
+
+
+label{
+    font-size:x-large;
+    font-style: oblique;
+    color: chocolate;
+    
+}
+legend{
+    font-size:xx-large;
+    font-style: oblique;
+    color:#094152;
+    
+}
+form{
+    width:100%;
+
+}
+
+button{
+    font-size:x-large;
+    font-style: oblique;
+    color:#03c2fc;
+    border:2px 000000;
+    border-radius:10px;
+    margin-top: 8px;
+}
+
+
+
+fieldset{
+    background-color: cadetblue;
+}

@@ -3,11 +3,11 @@
 
 <head>
     <title>Sales</title>
-    <link rel="stylesheet"href="Style.css">
+    <link rel="stylesheet"href="CSS/Style.css">
 </head>
 
 <body>
-    <img src="https://lh3.googleusercontent.com/proxy/A-npR8FBtr6nSAe1PmsoUY4r4PycGGO6kf8NXLaMr3SCgGAnPkmmtQnEAtGLP4Qkgk9UHnmdYh4HV-HqBDF4Tdpp" alt="salesimg">
+    <img src="http://hikyaat.com/wp-content/uploads/2019/12/cute-clown-fish-cartoon-vector-7623871.jpg" alt="salesimg">
    
     <div id="sales">
         
@@ -15,7 +15,34 @@
 
     <a href="index.html">Home</a>
 
-    <script src="app.js"></script>
+
+<form id="addingNewBranch">
+    <fieldset>
+        <legend>Add new branch</legend>
+
+        <label for="branchName">Branch Name</label>
+        <input type="text" id="branchName" name="branch_name">
+
+        <label for="minNumberOfCustomers">Min Number Of Customers</label>
+        <input type="number" id="minNumberOfCustomers" name="min_num_of_customers">
+
+        <label for="maxNumberOfCustomers">Max Number Of Customers</label>
+        <input type="number" id="maxNumberOfCustomers" name="max_num_of_customers">
+
+        <label for="avgNumberOfCookiesPerCustomer">Average Number of Cookies Per Customer</label>
+        <input type="number" id="avgNumberOfCookiesPerCustomer" name="avg_num_of_cookies_per_customer">
+
+
+        <button type="submit">Submit</button>
+
+
+    </fieldset>
+
+</form>
+
+
+
+    <script src="JS/app.js"></script>
 </body>
 
 </html>
